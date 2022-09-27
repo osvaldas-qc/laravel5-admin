@@ -1,0 +1,25 @@
+@footer-height: 50px;
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -@footer-height;
+
+    &:after {
+        content: "";
+        display: block;
+        height: @footer-height;
+    }
+}
+
+.site-footer {
+    height: @footer-height;
+    margin: 0;
+}
+
+.no-border-radius {
+    border-radius: 0px !important;
+}

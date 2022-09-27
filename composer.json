@@ -1,0 +1,24 @@
+{
+    "name": "brosbunbo/laravel5-admin",
+    "description": "An administration template for laravel 5",
+    "keywords": ["laravel", "admin"],
+    "license": "MIT",
+    "author": [
+        {
+            "name": "Duc Anh",
+            "email": "brosbunbo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "zizaco/entrust": "dev-laravel-5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BunBo\\": "src/brosbunbo/app/"
+        }
+    }
+}
