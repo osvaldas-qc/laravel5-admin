@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "shanmuga/laravel-entrust": "^v1.0"
+        "gghughunishvili/entrust": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.0"
